@@ -3,10 +3,10 @@ const main = async () => {
   const gameContract = await gameContractFactory.deploy(
     ["bulbasaur", "charmander", "squirtle", "caterpie"], // Names
     [
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png", // Images
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "QmTH9DZ21D2rDpQcd459fufTCp9ENPqtkxWov5bA6d957N", // Images
+      "QmaS83WvaooGAts4BWp6hAgyQHa8QYkuqsGPx2DYiP77or",
+      "QmXj79aXjVHHQzJooMg2BAnuVSuvhSrRcNWcSJstBtGNmD",
+      "QmX8ET9QZ3rXNvx7wT9NjDP99DnBQoYguRXzyR82CCDh1t",
     ],
     [100, 200, 300, 150], // HP values
     [100, 50, 25, 70], // Attack damage values
